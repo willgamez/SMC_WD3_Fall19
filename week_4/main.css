@@ -11,3 +11,21 @@
         border: 1px solid transparent;
         border-radius: .25rem;
     }
+
+    .text-muted{
+        color: #C7D3DD;
+        background-color: #E8EEF2;
+        border-color: #C7D3DD;
+
+    }
+
+    .card-title{
+        color:#74A4BC;
+    }
+
+    .card-text{
+        color:#37393A;
+    }
+    .list-group-item{
+        color:#74A4BC;
+    }
