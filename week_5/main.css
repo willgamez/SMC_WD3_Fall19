@@ -1,0 +1,21 @@
+h1 {
+    color: #87BBA2  ;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: #33CA7F;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    background-color:#E8E9EB    ;
+}
+body{
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color: #EF6461;
+    border-color: #EF6461;
+}
