@@ -1,6 +1,6 @@
 h1 {
     color: #87BBA2  ;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 h4 {
@@ -18,4 +18,8 @@ body{
     color: #fff;
     background-color: #EF6461;
     border-color: #EF6461;
+}
+label{
+    color: #7DCFB6;
+    
 }
