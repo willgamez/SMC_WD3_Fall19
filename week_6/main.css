@@ -1,15 +1,18 @@
 h1 {
     color: #87BBA2  ;
     font-family: 'Roboto Slab', serif;
+    display:none;
 }
 
 h4 {
     color: #33CA7F;
     font-family: 'Raleway', sans-serif;
+    padding-top:2%;
 }
 
 .container{
     background-color:#E8E9EB    ;
+    margin-top:2%;
 
 }
 body{
@@ -29,4 +32,14 @@ label{
 
     display:none;
     
-    }
+    }   
+
+.btn{
+    margin-bottom: 8%;
+}
+
+#formButton {
+
+    display:show;
+    
+    }   
