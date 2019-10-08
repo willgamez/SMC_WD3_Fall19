@@ -366,7 +366,26 @@
       setcountry();
     })
   </script>
+<!-- javascript for disable form fields unless validated
+NOT WORKING YET
+  ------------------------------------------------------------
+<script>
+    function formhide() {
+      if ($("#firstName").hasClass("was-validated") == true) {
+        $('#lastName').attr('disabled', 'disabled');
 
+
+      } else {
+        $('#lastName').removeAttr('disabled');
+        $('#lastName').val('');
+      }
+    }
+
+    $('#firstName').mouseout(function () {
+      formhide();
+    })
+  </script>
+-->
 </body>
 
 </html>
