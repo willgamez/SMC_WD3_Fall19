@@ -1,0 +1,14 @@
+.jumbotron {
+    background-image: url("img/thomas-schweighofer-4cnVft2DfO8-unsplash.jpg");
+    background-size: cover;
+    background-color: #000000;
+    background-position-y: 30%;
+  }
+
+  .display-4{
+    color: rgb(255, 255, 255)!important;
+  }
+
+  .display-5{
+    color: rgb(255, 255, 255)!important;
+  }
