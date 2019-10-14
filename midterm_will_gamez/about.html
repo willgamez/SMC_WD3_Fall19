@@ -15,7 +15,7 @@
   </head>
   <body>
       <header><!-- navbar start-->
-            <div class="collapse show bg-dark" id="navbarHeader">
+            <div class="collapse bg-dark" id="navbarHeader">
                     <div class="container">
                       <div class="row">
                         <div class="col-sm-8 col-md-7 py-4">
@@ -60,6 +60,38 @@
     </div>
   </div>
 <!--Jumbotron End-->
+<!--start modal-->
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-newsletter">
+		<div class="modal-content">
+			<form action="/examples/actions/confirmation.php" method="post">
+				<div class="modal-header">
+					<h2 class="white">Subscribe to our newsletter</h2>	
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+				</div>
+				<div class="modal-body">					
+					<p>Get the latest news, updates and amazing offers delivered directly in your inbox every week.</p>
+					<div class="input-group">
+            <input type="name" class="form-control" placeholder="Enter your Name" required>
+          </div>  
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+						<span class="input-group-btn">
+                <div class="form-group mt-4">
+                    <input class="form-check-input" type="checkbox" id="checkbox624">
+                    <label for="checkbox624" class="white-text form-check-label"> Opt in to emails from our instructors</a></label>
+                    <input class="form-check-input" type="checkbox" id="checkbox624">
+                    <label for="checkbox624" class="white-text form-check-label"> Opt in to emails from our affiliates</a></label>   
+                  </div>
+							<input type="submit" class="btn btn-secondary" value="Subscribe">
+						</span>
+					</div>
+				</div>
+			</form>			
+		</div>
+	</div>
+</div>
+  <!--end modal-->
 <!--Start featurette-->
     <div class="container">
 
@@ -69,7 +101,7 @@
         <p class="lead">Everybody starts somewhere, here at prime number services our roots were firmly planted by a group of 4 friends. Growing up in L.A. we felt like we were up against other photographers who had an arsenal of gear. We combined our money and each bought a different lens while sharing the same camera body.</p>
       </div>
       <div class="col-md-5">
-          <img src="img/alex-radelich-usykPGvG9RQ-unsplash.jpg" class="img-fluid" alt="Responsive image" width="500" height="500"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">Us circa 1995</text></img>
+          <img src="img/alex-radelich-usykPGvG9RQ-unsplash.jpg" class="img-fluid" alt="Responsive image" width="500" height="500"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">The founders circa 1995</text></img>
         </div>
     </div>
 
@@ -113,5 +145,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
   </body>
 </html>

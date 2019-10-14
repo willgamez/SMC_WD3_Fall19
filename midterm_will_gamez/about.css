@@ -13,7 +13,7 @@ body {
     background-image: url("img/50.jpg");
     background-size: cover;
     background-color: #000000;
-    background-position-y: 50%;
+    background-position-y: 38%;
   }
 
   .display-4{
@@ -24,3 +24,20 @@ body {
     color: rgb(255, 255, 255)!important;
   }
 
+label{
+    color: dimgrey;
+    margin-left: 2rem;
+}
+.form-check-input {
+  position: absolute;
+  margin-top: .3rem;
+  margin-left: 0.199rem;
+}
+p{
+  margin-top: 20px;
+}
+
+.display-5 {
+  color: rgb(255, 255, 255)!important;
+  margin-top: 110px!important;
+}
