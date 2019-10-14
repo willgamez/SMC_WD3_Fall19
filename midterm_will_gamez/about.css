@@ -9,3 +9,18 @@ body {
     overflow: hidden;
 }   
 
+.jumbotron {
+    background-image: url("img/50.jpg");
+    background-size: cover;
+    background-color: #000000;
+    background-position-y: 50%;
+  }
+
+  .display-4{
+    color: rgb(255, 255, 255)!important;
+  }
+
+  .display-5{
+    color: rgb(255, 255, 255)!important;
+  }
+
