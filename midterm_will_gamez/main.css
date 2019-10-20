@@ -12,11 +12,17 @@ p{
     font-family: 'Montserrat', sans-serif !important;
 }
 .navbar-toggler-icon {
-    background-image: url("img/camera.svg")!important;
+    background-image: url("img/Camera\ \(1\).svg")!important;
 
 }
 
 .navbar-toggler-icon.active{
-    background-image: url("img/Camera\ \(1\).svg")!important;
+    background-image: url("img/camera.svg")!important;
+   
 
 }
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border:0;
+}
+button:focus {outline:0;}
