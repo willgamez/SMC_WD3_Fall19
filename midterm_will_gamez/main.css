@@ -11,3 +11,12 @@ h3{
 p{
     font-family: 'Montserrat', sans-serif !important;
 }
+.navbar-toggler-icon {
+    background-image: url("img/camera.svg")!important;
+
+}
+
+.navbar-toggler-icon.active{
+    background-image: url("img/Camera\ \(1\).svg")!important;
+
+}
