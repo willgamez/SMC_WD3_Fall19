@@ -1,8 +1,20 @@
+body {
+    padding-top: 0px !important;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}   
+
 .jumbotron {
-    background-image: url("img/c-ma-7bc0i0t4pRo-unsplash.jpg");
+    background-image: url("img/46-1.jpg");
     background-size: cover;
     background-color: #000000;
-    background-position-y: 40%;
+    background-position-y: 25%;
+    min-height: 400px;
   }
 
   h1{
