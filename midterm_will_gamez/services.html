@@ -75,7 +75,8 @@
             <div class="carousel-caption text-right">
               <h1>Nail the shot</h1>
               <p>50mm automotive</p>
-              <p><a class="btn btn-lg btn-light" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-light" href="#" role="button"data-toggle="modal"
+                data-target="#carousel-1">Sign up today</a></p>
             </div>
           </div>
         </div>
@@ -87,7 +88,8 @@
             <div class="carousel-caption text-right">
               <h1>Capture the streets</h1>
               <p>50mm street</p>
-              <p><a class="btn btn-lg btn-light" href="#" role="button">Enroll now!</a></p>
+              <p><a class="btn btn-lg btn-light" href="#" role="button"data-toggle="modal"
+                data-target="#carousel-2">Enroll now!</a></p>
             </div>
           </div>
         </div>
@@ -99,7 +101,8 @@
             <div class="carousel-caption text-right">
               <h1>Travel light to get the shot</h1>
               <p>Wildlife 28mm</p>
-              <p><a class="btn btn-lg btn-light" href="#" role="button">reserve your spot!</a></p>
+              <p><a class="btn btn-lg btn-light" href="#" role="button"data-toggle="modal"
+                data-target="#carousel-3">reserve your spot!</a></p>
             </div>
           </div>
         </div>
@@ -116,6 +119,89 @@
 
   </main>
   <!--End Carousel-->
+  <!--start modal-->
+  <div id="carousel-1" class="modal fade">
+    <div class="modal-dialog modal-newsletter">
+      <div class="modal-content">
+        <form action="/examples/actions/confirmation.php" method="post">
+          <div class="modal-header">
+            <h1 class="white">Lets shoot cars...</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p>Enter your email and name so we can sign you up for automotive 50mm!</p>
+            <div class="input-group">
+              <input type="name" class="form-control" placeholder="Enter your Name" required>
+            </div>
+            <div class="input">
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+              <div class="input-btn">
+                
+                <input type="submit" class="btn btn-outline-danger" value="Submit">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--end modal-->
+
+  <!--start modal-->
+  <div id="carousel-2" class="modal fade">
+    <div class="modal-dialog modal-newsletter">
+      <div class="modal-content">
+        <form action="/examples/actions/confirmation.php" method="post">
+          <div class="modal-header">
+            <h1 class="white">Ready to own the streets?</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p>Enter your email and name so we can sign you up for street 35mm!</p>
+            <div class="input-group">
+              <input type="name" class="form-control" placeholder="Enter your Name" required>
+            </div>
+            <div class="input">
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+              <div class="input-btn">
+                
+                <input type="submit" class="btn btn-outline-danger" value="Submit">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--end modal-->
+
+    <!--start modal-->
+    <div id="carousel-3" class="modal fade">
+      <div class="modal-dialog modal-newsletter">
+        <div class="modal-content">
+          <form action="/examples/actions/confirmation.php" method="post">
+            <div class="modal-header">
+              <h1 class="white">Your next adventure awaits!</h1>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <p>Enter your email and name so we can sign you up for Wildlife 85mm!</p>
+              <div class="input-group">
+                <input type="name" class="form-control" placeholder="Enter your Name" required>
+              </div>
+              <div class="input">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+                <div class="input-btn">
+                  
+                  <input type="submit" class="btn btn-outline-danger" value="Submit">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--end modal-->
   <div class="alert alert-dark alert-dismissible fade show" role="alert">
     <strong>Be sure to check out our classes below</strong> If you have any questions feel free to reach out via email
     <a href="mailto:willgamez@gmail.com">click here for email</a>
