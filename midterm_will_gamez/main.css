@@ -9,6 +9,20 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
 }
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(238, 0, 0);
+    font-size: 1.10rem;
+}
+a {
+    color:rgb(155, 20, 20);
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color:rgb(155, 20, 20);
+    text-decoration: underline;
+}
 
 p{
     font-family: 'Montserrat', sans-serif !important;
