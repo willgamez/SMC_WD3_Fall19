@@ -1,6 +1,6 @@
 h1{
     font-family: 'Merriweather', serif;
-    text-shadow: .5px .5px #505050;
+    text-shadow: .1px .1px #505050;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +11,7 @@ h3{
 }
 h5{
     font-family: 'Montserrat', sans-serif;
-    color: rgb(238, 0, 0);
+    color: crimson;
     font-size: 1.10rem;
 }
 a {
