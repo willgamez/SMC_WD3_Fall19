@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main1.css">
+    <title>Canvas and SVG</title>
+</head>
+
+<body>
+
+    <canvas width="500" height="500" id="myCanvas">
+        This webpage uses HTML Canvas - please load in a newer browser.
+    </canvas>
+
+    <script>
+    const canvas = document.getElementById('myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    ctx.fillStyle = "#586F6B";
+    ctx.fillRect (0,0,canvas.width, canvas.height);
+    ctx.strokeStyle = "#00000";
+    ctx.fillStyle = "#CFC0BD";
+    ctx.fillRect(200,150, 200, 100);
+
+    ctx.fillStyle = "#B8B8AA";
+    ctx.strokeRect(200,150, 200, 100);
+
+    ctx.fillStyle = "#7F9183";    
+    ctx.fillRect(220,175,50,50);
+
+    ctx.fillStyle = "#7F9183";    
+    ctx.fillRect(325,175,50,50);
+
+    ctx.fillStyle = "#7F9183";    
+    ctx.fillRect(285,230,25,15);
+
+    ctx.font = '48px serif';
+  ctx.fillText('Welcome human', 10, 50);
+
+    </script>
+
+    <script>
+    function draw() {
+  var ctx = document.getElementById('myCanvas').getContext('2d');
+
+  var img = new Image();
+  img.onload = function() {
+    ctx.drawImage(img, 0, 0);
+  };
+  img.src = 'https://i.etsystatic.com/13013734/r/il/49b87d/1254522967/il_570xN.1254522967_21ph.jpg';
+}
+    </script>
+</body>
+
+</html>
