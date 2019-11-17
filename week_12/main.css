@@ -1,0 +1,20 @@
+#Frame{
+    background-color: orange;
+    width: 825px;
+    height: 700px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+#pushDaButton{
+    background-color: black;
+    width: 200px;
+    height: 75px;
+    color: white;
+}
+#pushDaButton1{
+    background-color: black;
+    width: 200px;
+    height: 75px;
+    color: white;
+}
