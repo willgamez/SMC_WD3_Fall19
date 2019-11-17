@@ -7,14 +7,28 @@
 }
 
 #pushDaButton{
-    background-color: black;
+    background-color: white;
     width: 200px;
     height: 75px;
-    color: white;
+    color: blue;
 }
 #pushDaButton1{
-    background-color: black;
+    background-color:white;
     width: 200px;
     height: 75px;
+    color:green;
+}
+#score{
+    font-size: 26px;
+    color:white;
+    display:inline;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+#yourScore{
+    font-size: 26px;
     color: white;
+    display:inline;
+    padding: 10px;
+    margin-bottom: 10px;
 }

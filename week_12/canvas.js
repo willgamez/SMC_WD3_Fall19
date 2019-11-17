@@ -64,7 +64,7 @@ canvas.addEventListener("click", function(event){
     if(distX < ballRadius && distY < ballRadius){
         console.log('FIRE!!!!!!');
         score1 += 1;
-        document.getElementById("score").innerHTML = 'your score = '+ score1;
+        document.getElementById("score").innerHTML = score1;
     }
 
         
