@@ -1,0 +1,25 @@
+body {
+    padding-top: 0px !important;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}   
+
+.jumbotron {
+    background-image: url("image/10.jpeg");
+    background-size: cover;
+    background-color: #000000;
+    background-position-y: 25%;
+    min-height: 400px;
+  }
+
+  h1{
+      color: crimson;
+  }
+  .btn{
+margin-bottom: 1.5em;
+  }
