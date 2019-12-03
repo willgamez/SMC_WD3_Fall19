@@ -10,26 +10,32 @@ body {
 }   
 
 .jumbotron {
-    background-image: url("image/10.jpeg");
+    background-image: url("image/3bg.jpg");
     background-size: cover;
     background-color: #000000;
-    background-position-y: 25%;
-    min-height: 20px;
-    max-height: 50px;
+    background-position-y: 30%;
   }
 
   h1{
       color: #596869;
+
   }
   .btn{
 margin-bottom: 1.5em;
   }
   .h1, h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 a {
     color:#5bc0de;
     text-decoration: none;
     background-color: transparent;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #596869;
+    
 }

@@ -49,3 +49,9 @@ p{
 .btn-1{
   margin-bottom: 1.5em;
     }
+
+    .required {
+      color:red; 
+      font-weight:bold
+    } 
+    .human {margin: 0 0 0 12px}
