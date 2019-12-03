@@ -1,0 +1,51 @@
+body {
+    padding-top: 0px !important;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}   
+
+.jumbotron {
+    background-image: url("image/4bg.jpg");
+    background-size: cover;
+    background-color: #000000;
+    background-position-y: 50%;
+    min-height: 400px;
+  }
+
+  .display-4{
+    color: rgb(255, 255, 255)!important;
+  }
+
+  .display-5{
+    color: rgb(255, 255, 255)!important;
+  }
+
+label{
+    color: dimgrey;
+    margin-left: 2rem;
+}
+.form-check-input {
+  position: absolute;
+  margin-top: .3rem;
+  margin-left: 0.199rem;
+}
+p{
+  margin-top: 20px;
+}
+
+.display-5 {
+  color: rgb(255, 255, 255)!important;
+  margin-top: 20px!important;
+  text-shadow: .2px .2px #505050;
+}
+.white{
+  color: #C2C1A5!important;
+}
+.btn-1{
+  margin-bottom: 1.5em;
+    }

@@ -1,23 +1,24 @@
 h1{
-    font-family: 'Merriweather', serif;
-    text-shadow: .1px .1px #505050;
+    font-family:'Raleway', Sans-Serif; 
+     color:#C2C1A5;
 }
 h2{
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: .2px .2px #505050;
+    Font-Family: 'Open Sans', Sans-Serif;
+    
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
+    Font-Family: 'Open Sans', Sans-Serif;
 }
 h5{
-    font-family: 'Montserrat', sans-serif;
+    Font-Family: 'Open Sans', Sans-Serif;
     color: crimson;
     font-size: 1.10rem;
 }
 a {
-    color:rgb(155, 20, 20);
+    color:#5bc0de;
     text-decoration: none;
     background-color: transparent;
+    Font-Family: 'Open Sans', Sans-Serif;
 }
 a:hover {
     color:rgb(155, 20, 20);
@@ -25,7 +26,7 @@ a:hover {
 }
 
 p{
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Open Sans', Sans-Serif;!important;
     text-shadow: .2px .2px #505050;
 }
 .navbar-toggler-icon {
@@ -89,4 +90,18 @@ text{
     margin-bottom:1em;
 }
 .badge-notify {
-    background: #6394f8;
+    background: #6394f8;}
+
+
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }

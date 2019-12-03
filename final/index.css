@@ -14,12 +14,22 @@ body {
     background-size: cover;
     background-color: #000000;
     background-position-y: 25%;
-    min-height: 400px;
+    min-height: 20px;
+    max-height: 50px;
   }
 
   h1{
-      color: crimson;
+      color: #596869;
   }
   .btn{
 margin-bottom: 1.5em;
   }
+  .h1, h1 {
+    font-size: 2rem;
+}
+
+a {
+    color:#5bc0de;
+    text-decoration: none;
+    background-color: transparent;
+}
