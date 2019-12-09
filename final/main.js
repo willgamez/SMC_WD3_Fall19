@@ -24,6 +24,8 @@ $(document).ready(function() {
                   console.log('BUY EVERYTHING');
                   cart1 += 1;
                   document.getElementById("cart").innerHTML = cart1;
+                  document.getElementById(".checkout-toggler-icon");
+              $(".checkout-toggler-icon").addClass("active");
                 });
             });
 
@@ -32,8 +34,18 @@ $(document).ready(function() {
               console.log('toggle everything');
               cart1 += 1;
               document.getElementById("cart").innerHTML = cart1;
+              document.getElementById(".checkout-toggler-icon");
+              $(".checkout-toggler-icon").addClass("active");
                 
             });
+            
+            $('.modaladdbutton').on('click', function(){
+              $('.modal-body').parents()
+              console.log('toggle everything');
+              document.getElementById(".checkout-toggler-icon");
+              $(".checkout-toggler-icon").addClass("active");
+            });
+
             
             
                 

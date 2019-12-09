@@ -112,7 +112,7 @@ text{
     }
     
     .checkout-toggler-icon.active{
-        background-image: url("image/shopping.svg")!important;
+        background-image: url("image/shopping1.svg")!important;
        
     
     }
@@ -126,3 +126,6 @@ text{
         background: no-repeat center center;
         background-size: 100% 100%;
     }
+
+    .grow { transition: all .2s ease-in-out; }
+    .grow:hover { transform: scale(1.25); }
