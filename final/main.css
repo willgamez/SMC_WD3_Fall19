@@ -105,3 +105,24 @@ text{
         border: 1px solid rgba(0,0,0,.125);
         border-radius: .25rem;
     }
+
+    .checkout-toggler-icon{
+        background-image: url("image/shopping.svg")!important;
+    
+    }
+    
+    .checkout-toggler-icon.active{
+        background-image: url("image/shopping.svg")!important;
+       
+    
+    }
+
+    .checkout-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+    }

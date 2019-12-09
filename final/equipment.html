@@ -47,6 +47,8 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
+                <li><a href="checkout.html"><i class="checkout-toggler-icon"></i></a></li>
+                                  <div id="yourScore"></div><div id="cart"></div>
               </ul>
             </nav>
           </div>
@@ -83,7 +85,7 @@
             <div class="carousel-caption text-right">
              
               <p><a class="btn btn-lg btn-light" href="#" role="button"data-toggle="modal"
-                data-target="#carousel-1">Shop our roasting pan</a></p>
+                data-target="#Jamesbutton">Shop our roasting pan</a></p>
             </div>
           </div>
         </div>
@@ -95,7 +97,7 @@
             <div class="carousel-caption text-right">
               
               <p><a class="btn btn-lg btn-light" href="#" role="button"data-toggle="modal"
-                data-target="#carousel-2">Shop this grinder</a></p>
+                data-target="#Angelinabutton">Shop this grinder</a></p>
             </div>
           </div>
         </div>
@@ -107,7 +109,7 @@
             <div class="carousel-caption text-right">
               
               <p><a class="btn btn-lg btn-light" href="#" role="button"data-toggle="modal"
-                data-target="#carousel-3">Shop this french press</a></p>
+                data-target="#vinbutton">Shop this french press</a></p>
             </div>
           </div>
         </div>
@@ -231,8 +233,9 @@
               </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-info "
-                    onclick="window.location.href = 'contact.html#Vin';">View product</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"
+                    data-target="#Joaquinbutton">View product info</button>
+                    <button class="btn btn-outline-info btn-block AddButton">Add to Cart</button>
 
                 </div>
                 <small class="text-muted">material: glass</small>
@@ -240,6 +243,37 @@
             </div>
           </div>
         </div>
+        <!-- Joaquin Modal -->
+        <div class="modal fade" id="Joaquinbutton" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Chemex</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <strong>Material</strong>
+                        glass, teak, leather<br>
+                         <strong>Source</strong>
+                         Reykjavik,Iceland<br>
+                         <strong>Price</strong>
+                         $50.00<br>
+                         <strong>Weight</strong>
+                         8oz<br>
+                </div>
+                <img src="image/50.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
+                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                role="img" aria-label="Placeholder: Thumbnail">
+                <button class="btn btn-outline-info btn-block modaladdbutton">Add to Cart</button>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Joaquin Modal-->
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <img src="image/56.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
@@ -253,8 +287,9 @@
               <p class="card-text">Only the best in brewing equipment </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-info"
-                    onclick="window.location.href = 'contact.html#Angelina';">View product</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"
+                    data-target="#Jamesbutton">View product info</button>
+                    <button class="btn btn-outline-info btn-block AddButton">Add to Cart</button>
 
                 </div>
                 <small class="text-muted">material: clay</small>
@@ -262,7 +297,38 @@
             </div>
           </div>
         </div>
+  <!-- James Modal -->
+  <div class="modal fade" id="Jamesbutton" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Roasting pan</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+                  <strong>Material</strong>
+                  Terra Cotta<br>
+                   <strong>Source</strong>
+                   Sinaloa, Mexico<br>
+                   <strong>Price</strong>
+                   $120.00<br>
+                   <strong>Weight</strong>
+                   15 pounds<br>
+          </div>
+          <img src="image/56.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
+          xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: Thumbnail">
+          <button class="btn btn-outline-info btn-block modaladdbutton">Add to Cart</button>
+          <div class="modal-footer">
+          </div>
+      </div>
+  </div>
+</div>
 
+<!-- End James Modal -->
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <img src="image/52.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
@@ -275,15 +341,47 @@
               <p class="card-text">Only the best in brewing equipment </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-info"
-                    onclick="window.location.href = 'contact.html#James';">View product</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"
+                    data-target="#Sashabutton">View product info</button>
+                    <button class="btn btn-outline-info btn-block AddButton">Add to Cart</button>
 
                 </div>
                 <small class="text-muted">material: stoneware</small>
               </div>
             </div>
           </div>
+        </div><!-- Sasha Modal -->
+        <div class="modal fade" id="Sashabutton" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Sinaloa</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                            <strong>Material</strong>
+                            Clay<br>
+                             <strong>Source</strong>
+                            Los Angeles, CA<br>
+                             <strong>Price</strong>
+                             $20.00<br>
+                             <strong>Weight</strong>
+                             1 pound 8oz<br>
+                    </div>
+                    <img src="image/52.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
+                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                    role="img" aria-label="Placeholder: Thumbnail">
+                    <button class="btn btn-outline-info btn-block modaladdbutton">Add to Cart</button>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!-- End Sasha Modal -->
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
@@ -297,14 +395,48 @@
               <p class="card-text">Only the best in brewing equipment.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-info"
-                    onclick="window.location.href = 'contact.html#Angelina';">View product  </button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"
+                    data-target="#vinbutton">View product info</button>
+                    <button class="btn btn-outline-info btn-block AddButton">Add to Cart</button>
                 </div>
                 <small class="text-muted">Material: Glass</small>
               </div>
             </div>
           </div>
         </div>
+        <!-- Vin Modal -->
+        <div class="modal fade" id="vinbutton" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Chengdu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <strong>Material</strong>
+                    Glass, brushed aluminum<br>
+                     <strong>Source</strong>
+                    Paris, France<br>
+                     <strong>Price</strong>
+                     $25.00<br>
+                     <strong>Weight</strong>
+                     1 pound 8oz<br>
+                </div>
+                <img src="image/53.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: Thumbnail">
+            <button class="btn btn-outline-info btn-block modaladdbutton">Add to Cart</button>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Vin Modal -->
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <img src="image/54.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
@@ -317,8 +449,9 @@
               <p class="card-text">Only the best in brewing equipment </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-info"
-                    onclick="window.location.href = 'contact.html#Jane';">View product</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"
+                    data-target="#Janebutton">View product info</button>
+                    <button class="btn btn-outline-info btn-block AddButton">Add to Cart</button>
 
                 </div>
                 <small class="text-muted">material: steel</small>
@@ -326,6 +459,38 @@
             </div>
           </div>
         </div>
+          <!-- Jane Modal -->
+          <div class="modal fade" id="Janebutton" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Kenya</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <strong>Material</strong>
+                      Brushed aluminum<br>
+                       <strong>Source</strong>
+                      Tokyo, Japan<br>
+                       <strong>Price</strong>
+                       $50.00<br>
+                       <strong>Weight</strong>
+                       1 pound 8oz<br>
+                  </div>
+                  <img src="image/54.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  role="img" aria-label="Placeholder: Thumbnail">
+                  <button class="btn btn-outline-info btn-block modaladdbutton">Add to Cart</button>
+                  <div class="modal-footer">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- End Jane Modal -->
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <img src="image/55.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
@@ -338,13 +503,48 @@
               <p class="card-text">Only the best in brewing equipment </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-info"
-                    onclick="window.location.href = 'contact.html#Sasha';">View product</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"
+                    data-target="#Angelinabutton">View product info</button>
+                    <button class="btn btn-outline-info btn-block AddButton">Add to Cart</button>
                 </div>
                 <small class="text-muted">material: wood</small>
               </div>
             </div>
           </div>
+          <!-- Angelina Modal -->
+    <div class="modal fade" id="Angelinabutton" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Reykjavik</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <strong>Material</strong>
+                Brushed aluminum, teak<br>
+                 <strong>Source</strong>
+                Milan, Italy<br>
+                 <strong>Price</strong>
+                 $150.00<br>
+                 <strong>Weight</strong>
+                 1 pound 8oz<br>
+            </div>
+            <img src="image/55.jpg" class="img-fluid" alt="Responsive image" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        role="img" aria-label="Placeholder: Thumbnail">
+                        <button class="btn btn-outline-info btn-block modaladdbutton">Add to Cart</button>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End Angelina Modal -->
         </div>
       </div>
     </div>
